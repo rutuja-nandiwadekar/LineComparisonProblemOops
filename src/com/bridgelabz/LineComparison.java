@@ -3,6 +3,10 @@ package com.bridgelabz;
 import java.util.Objects;
 import java.util.Scanner;
 
+/* Line Comparison Computation Program
+ * Used Java Object Oriented Programming Concepts 
+ * Used equals and compareTo methods.
+*/
 public class LineComparison {
 	// initialization
 	static double x1, x2, y1, y2, x3, x4, y3, y4;
