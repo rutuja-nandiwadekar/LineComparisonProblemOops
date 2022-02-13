@@ -14,7 +14,8 @@ public class LineComparison {
 		System.out.println("Welcome to Line Comparison Computation Program using Oops concepts");
 		lengthOfLine1();
 		lengthOfLine2();
-		checkEqualityOfLines(); // calling method
+		checkEqualityOfLines();
+		compareTo(); // calling method
 	}
 
 	public static void lengthOfLine1() {
@@ -53,5 +54,20 @@ public class LineComparison {
 			System.out.println("Two lines are equal");
 		else
 			System.out.println("Two lines are not equal");
+	}
+
+	/*
+	 * This method is used to compare two lines To check one line is equal, greater
+	 * or less than the other line.
+	 */
+	public static void compareTo() {
+		if (LengthOfLine1 > LengthOfLine2)
+			System.out.println("Line1 is greater than line2");
+
+		else if (LengthOfLine1 < LengthOfLine2)
+			System.out.println("Line2 is greater than line1");
+
+		else
+			System.out.println("Both lines are equal");
 	}
 }
